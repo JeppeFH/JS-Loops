@@ -11,5 +11,16 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 /*While Loop*/
+let i = 0;
+
+while (i < cars.length) {
+  outputWhileLoop.innerHTML += "<p>" + cars[i] + "</p>" i++  
+}
 
 /*Do While Loop*/
+let a = 0;
+
+do { outputWhileLoop.innerHTML += "<p>" + cars[i] + "</p>" a++ 
+}
+
+while (a < cars.length)
