@@ -26,7 +26,7 @@ for (let i = 0; i < imageSource.length; i++) {
 let i = 0;
 
 while (i < imageSource.length) {
-  outputWhileLoop.innerHTML += "<img>" + imageSource[i] + "<img>";
+  outputWhileLoop.innerHTML += '<img src="' + imageSource[i] + '" alt="Image">';
   i++;
 }
 
